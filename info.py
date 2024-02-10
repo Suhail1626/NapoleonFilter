@@ -45,13 +45,13 @@ SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '23512457'))
 API_HASH = environ.get('API_HASH', '8d4be72e436d3439449dd9ef52ea6fb7')
 NOR_IMG = environ.get("NOR_IMG", "")
-BOT_TOKEN = environ.get('BOT_TOKEN', '5834315400:AAEoVMRhMHF__LjjtHP_qihQJqbaj9_lnNw')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6883307361:AAHkhuNwew9eoWWJcVh2iKp8P_0CNdVi-wE')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS' ,'https://graph.org/file/56bbeb6dac44b0c2a98c7.jpg')).split()
-SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/b58f576fed14cd645d2cf.jpg")
+SPELL_IMG = environ.get('SPELL_IMG',"https://graph.org/file/8696f7f08ba9b3ddac955.jpg")
 BOT_START_TIME = time()
 
 # Welcome area
@@ -75,8 +75,8 @@ TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://alaaska:alaaska@cluster0.raelgft.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Sulu")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Napoleon:Napoleon@cluster0.ldyzwdc.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Napoleon")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 MONGO_URL = os.environ.get('MONGO_URL', "mongodb+srv://alaaska:alaaska@cluster0.raelgft.mongodb.net/?retryWrites=true&w=majority")
 
