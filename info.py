@@ -51,7 +51,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '6883307361:AAHkhuNwew9eoWWJcVh2iKp8P_0CNdV
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS' ,'https://graph.org/file/56bbeb6dac44b0c2a98c7.jpg')).split()
-SPELL_IMG = environ.get('SPELL_IMG',"https://graph.org/file/8696f7f08ba9b3ddac955.jpg")
+SPELL_IMG = environ.get('SPELL_IMG',"https://graph.org/file/1c7140977a81dc509e61a.jpg")
 BOT_START_TIME = time()
 
 # Welcome area
